@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html::-webkit-scrollbar{
+  width: 0px;
+}
+
+
+.theme-blue {
+  background-color: #005197 !important;
+}
+
+.theme-red {
+  background-color: #C72B27 !important;
+}
+.text-theme-blue {
+  color: #005197 !important;
+}
+.text-theme-red {
+  color: #C72B27 !important;
+}
+a {
+  text-decoration: none !important;
+}
+p{
+  margin: 0;
+}
+.d{
+  display: flex;
+}
+.j{
+  justify-content: center;
+}
+.a{
+  align-items: center;
+}
+
+.dja{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fw-1{
+  font-weight: 300;
+}
+.fw-2{
+  font-weight: 600;
+}
+.fw-3{
+  font-weight: 900;
+}
+
+.t{
+  transition: 0.33s;
+}
+.banner{
+  background-image: url(../img/Group\ 1383.png);
+  height: 75vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.courses img{
+  color: #005197;
+}
+
+.courses:hover{
+  background-color: #005197 !important;
+}
+.courses .img-2{
+  display: none;
+}
+
+.courses:hover .img-1{
+  display: none;
+}
+.courses:hover .img-2{
+  display: block;
+}
+.courses:hover h6{
+  color: white;
+}
