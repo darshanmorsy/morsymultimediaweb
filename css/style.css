@@ -22,6 +22,10 @@ html::-webkit-scrollbar{
 .text-theme-red {
   color: #C72B27 !important;
 }
+.text-theme-gree{
+  color: #666;
+}
+
 a {
   text-decoration: none !important;
 }
