@@ -287,7 +287,7 @@ p{
 .nav-menu > li:hover > a,
 .nav-menu > li.active > a,
 .nav-menu > li.focus > a {
-  color: #27ae60;
+  color: #005197;
 }
 .nav-menu > li > a > i,
 .nav-menu > li > a > [class*="ion-"] {
@@ -440,7 +440,7 @@ p{
   transform: translateX(-50%);
 }
 .nav-search-button:hover .nav-search-icon {
-  color: #27ae60;
+  color: #005197;
 }
 .nav-search > form {
   width: 100%;
@@ -573,7 +573,7 @@ p{
 }
 .nav-dropdown > li:hover > a,
 .nav-dropdown > li.focus > a {
-  color: #27ae60;
+  color: #005197;
 }
 .nav-dropdown.nav-dropdown-left {
   right: 0;
@@ -633,7 +633,7 @@ p{
 }
 .nav-dropdown > li:hover > a .submenu-indicator-chevron,
 .nav-dropdown > .focus > a .submenu-indicator-chevron {
-  border-color: transparent #27ae60 #27ae60 transparent;
+  border-color: transparent #005197 #005197 transparent;
 }
 .navigation-landscape .nav-dropdown.nav-dropdown-left .submenu-indicator {
   left: 10px;
@@ -871,7 +871,7 @@ p{
   font-size: 13px;
 }
 .megamenu-list > li > a:hover {
-  background-color: #27ae60;
+  background-color: #005197;
   color: #fff;
 }
 .megamenu-list > li.megamenu-list-title > a {
@@ -897,6 +897,7 @@ p{
 }
 .nav-menu > li > a {
   color: #343a40;
+  font-weight: 600;
   text-transform: uppercase;
 }
 .nav-dropdown > li > a {
@@ -906,7 +907,7 @@ p{
 }
 .nav-dropdown > li > a:hover,
 .nav-dropdown > li > a:focus {
-  color: #27ae60;
+  color: #005197;
 }
 .main_header_area.sticky {
   width: 100%;
@@ -939,7 +940,7 @@ p{
 
 
 .banner{
-  background-image: url(../img/Group\ 1383.png);
+  background-image: url(../img/Group\ 1393.png);
   height: 75vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -947,14 +948,14 @@ p{
 }
 .banner2{
   background-image: url(../img/benar2.png);
-  height: 630px;
    width: 100%; 
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
 }
 .footer-img{
-  background-image: url(../img/Maskgroup.png);
-  height: 630px;
+  background-image: url(../img/Group\ 1390.png);
+  /* height: 630px; */
+  background-size: cover;
    width: 100%; 
   background-repeat: no-repeat;
 }
@@ -980,9 +981,6 @@ p{
 }
 .mt{
   margin-top: 18%;
-}
-.footer-mt{
-  margin-top: 7%;
 }
 .p-mt{
   margin-top: 6%;
