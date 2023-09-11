@@ -26,6 +26,10 @@ html::-webkit-scrollbar{
   color: #666;
 }
 
+.text-grey{
+  color: #585858 !important;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -993,30 +997,15 @@ p{
   border-bottom: 1px solid white;
   padding-bottom: 7px;
 }
-.custom-search {
-  position: relative;
-  width: 300px;
-}
-.custom-search-input {
+
+.course-banner{
+  background-image: url(../img/allcourses.png);
   width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 100px;
-  padding: 10px 100px 10px 20px; 
-  line-height: 1;
-  box-sizing: border-box;
-  outline: none;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.custom-search-botton {
-  position: absolute;
-  right: 3px; 
-  top: 3px;
-  bottom: 3px;
-  border: 0;
-  background: #005197;
-  color: #fff;
-  outline: none;
-  margin: 0;
-  padding: 0 10px;
-  border-radius: 100px;
-  z-index: 2;
+
+.course-tab .active{
+  background-color: #005197 !important;
+  color: white !important;
 }
