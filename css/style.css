@@ -29,7 +29,9 @@ html::-webkit-scrollbar{
 .text-grey{
   color: #585858 !important;
 }
-
+.rounded-4{
+  border-radius: 10px;
+}
 a {
   text-decoration: none !important;
 }
@@ -1030,4 +1032,12 @@ p{
 
 .students-says .carousel-wrap .disabled div{
   margin: 0 10px;
+}
+
+
+.develop-banner{
+  background-image: url(../img/developban.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
