@@ -1,5 +1,5 @@
   $('.owl-carousel').owlCarousel({
-    // nav: true,
+    nav: false,
     autoplay: true,
     autoplaySpeed: 1000, // Set autoplay speed to 3 seconds (3000 milliseconds)
     mouseDrag: false,

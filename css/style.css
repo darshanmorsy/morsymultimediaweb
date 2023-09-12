@@ -1009,3 +1009,25 @@ p{
   background-color: #005197 !important;
   color: white !important;
 }
+
+.students-says .carousel-wrap .disabled{
+  display: block !important;
+  text-align: center;
+  display: flex !important;
+  justify-content: center !important;
+
+}
+.students-says .carousel-wrap .owl-nav{
+  display: block !important;
+  text-align: center;
+  display: flex !important;
+  justify-content: center !important;
+
+}
+.students-says .carousel-wrap .owl-nav div{
+  margin: 0 10px;
+}
+
+.students-says .carousel-wrap .disabled div{
+  margin: 0 10px;
+}
