@@ -983,7 +983,7 @@ p{
   display: block;
 }
 .courses:hover h6{
-  color: white;
+  color: white !important;
 }
 .mt{
   margin-top: 18%;
